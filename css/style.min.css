@@ -34,7 +34,7 @@ h3 {
 }
 
 .section_wrapper {
-  margin-top: 90px;
+  margin-top: 70px;
   border: 1px solid #000000;
   padding: 80px 50px 80px 50px;
   -webkit-box-shadow: 0 0 20px black;
@@ -68,6 +68,8 @@ header .menu {
 
 header .menu img {
   width: 100px;
+  -webkit-transition: 1s all;
+  transition: 1s all;
 }
 
 header .menu_item_link {
@@ -95,7 +97,7 @@ header .menu_item_link:hover {
   text-shadow: 0px 0px 5px #000000;
   text-decoration: underline;
   background: #000000;
-  border-radius: 80%;
+  border-radius: 100%;
 }
 
 header .menu_item_link:active {
@@ -105,8 +107,14 @@ header .menu_item_link:active {
   font-size: 28px;
 }
 
-header .menu_item_link:nth-child(3) {
-  display: none;
+header .menu img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+header .menu img:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .header_junior_block {
@@ -184,8 +192,8 @@ header .menu_item_link:nth-child(3) {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 12px 0 12px;
-  -webkit-transition: 0.7s all;
-  transition: 0.7s all;
+  -webkit-transition: 1s all;
+  transition: 1s all;
 }
 
 .header_junior .about .social div i {
@@ -207,7 +215,14 @@ header .menu_item_link:nth-child(3) {
           transform: scale(1.1);
 }
 
-.hard_skills_block {
+.header_junior .about .social div:hover i:active {
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  -webkit-transform: scale(0.65);
+          transform: scale(0.65);
+}
+
+.skills_block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,13 +231,13 @@ header .menu_item_link:nth-child(3) {
   padding-top: 35px;
 }
 
-.hard_skills_block_sub {
+.skills_block_sub {
   width: 500px;
   border: 1px solid #000000;
   padding: 30px 15px 20px 30px;
 }
 
-.hard_skills_block_sub .subblock .img_text {
+.skills_block_sub .subblock .img_text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,5 +246,112 @@ header .menu_item_link:nth-child(3) {
           align-items: center;
   padding-bottom: 20px;
   font-size: 25px;
+}
+
+.qa_skills ul.sublist li {
+  font-size: 20px;
+  list-style: square;
+}
+
+.qa_skills ul {
+  padding-left: 30px;
+}
+
+.qa_skills ul li {
+  font-size: 25px;
+  list-style-image: url("../img/svg/asterisk.svg");
+  padding-bottom: 10px;
+}
+
+.hoobies .skills_block_sub {
+  padding-top: 0;
+  width: 100%;
+  border: none;
+}
+
+.hoobies .skills_block_sub .subblock ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.hoobies .skills_block_sub .subblock ul li {
+  list-style: none;
+}
+
+.hoobies .skills_block_sub .subblock ul img {
+  height: 100px;
+}
+
+footer {
+  margin-bottom: 70px;
+}
+
+footer .section_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 80px 0 80px 0;
+}
+
+footer .section_wrapper .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .section_wrapper .social div {
+  border: 1px solid #000000;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 12px 0 12px;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+footer .section_wrapper .social div i {
+  font-size: 20px;
+  text-shadow: none;
+  color: #000000;
+}
+
+footer .section_wrapper .social div:hover {
+  background: #000000;
+  cursor: pointer;
+  -webkit-transform: rotate(360deg) scale(1.7);
+          transform: rotate(360deg) scale(1.7);
+}
+
+footer .section_wrapper .social div:hover i:hover {
+  color: #ffffff;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer .section_wrapper .social div:hover i:active {
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  -webkit-transform: scale(0.65);
+          transform: scale(0.65);
 }
 /*# sourceMappingURL=style.min.css.map */
