@@ -46,20 +46,29 @@ header
             width: 100px
         &_item
             &_link
+                display: flex
+                justify-content: center
+                align-items: center
+                width: 140px
+                height: 60px
                 color: #000000
                 text-decoration: none
                 font-size: 25px
                 font-weight: 500
-                transition: 1.5s all
+                transition: 1s all
             &_link:hover
-                min-width: 100px
-                min-height: 100px
                 color: #ffffff
                 text-shadow: 0px 0px 5px #000000
                 text-decoration: underline
                 background: #000000
                 border-radius: 80%
-                margin: 0 5px 0 5px
+            &_link:active
+                transition: 0.1s all
+                text-decoration: none
+                font-size: 28px
+            &_link:nth-child(3)
+                display: none
+                    
 .header_junior
     &_block
         display: flex
