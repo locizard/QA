@@ -2,10 +2,12 @@
   font-family: 'Oswald', sans-serif;
   margin: 0;
   padding: 0;
+  text-shadow: 3px 3px 3px grey;
 }
 
 .wrapper {
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 .container {
@@ -13,12 +15,23 @@
   margin: 0 auto;
 }
 
-header {
-  height: 80px;
+.section_wrapper {
+  margin-top: 90px;
+  border: 1px solid #000000;
+  padding: 80px 0 80px 0;
+  -webkit-box-shadow: 0 0 20px black;
+          box-shadow: 0 0 20px black;
+}
+
+.icon_before {
+  max-width: 30;
+  max-height: 30px;
+  padding-right: 17px;
 }
 
 header .menu {
-  margin-top: 20px;
+  height: 90px;
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,6 +44,8 @@ header .menu {
   list-style-type: none;
   padding: 20px 100px 20px 100px;
   border: 1px solid #000000;
+  -webkit-box-shadow: 0 0 20px black;
+          box-shadow: 0 0 20px black;
 }
 
 header .menu img {
@@ -44,10 +59,6 @@ header .menu_item_link {
   font-weight: 500;
 }
 
-.header_junior {
-  margin-top: 100px;
-}
-
 .header_junior_block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,11 +68,11 @@ header .menu_item_link {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 250px;
 }
 
 .header_junior_block h1 {
   font-size: 100px;
+  margin: 0;
 }
 
 .header_junior_block img {
@@ -72,26 +83,32 @@ header .menu_item_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
+}
+
+.header_junior .about_me_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.header_junior .about_me ul li {
-  list-style-type: none;
-}
-
 .header_junior .about .name_date {
   line-height: 20px;
   line-height: 40px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
 }
 
 .header_junior .about img {
   height: 400px;
+  padding-left: 50px;
 }
 /*# sourceMappingURL=style.min.css.map */
