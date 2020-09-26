@@ -3,6 +3,19 @@
     margin: 0
     padding: 0
     text-shadow: 3px 3px 3px grey
+h1
+    font-size: 100px
+    margin: 0
+h2
+    font-size: 70px
+    text-align: center
+    padding-bottom: 30px
+h3
+    font-size: 45px
+    text-align: center
+    padding-bottom: 30px
+    text-decoration: underline
+        
 .wrapper
     max-width: 1600px
     margin: 0 auto
@@ -12,11 +25,11 @@
 .section_wrapper
     margin-top: 90px
     border: 1px solid #000000
-    padding: 80px 0 80px 0;
+    padding: 80px 50px 80px 50px
     box-shadow: 0 0 20px rgba(0,0,0,1)   
 .icon_before
-    max-width: 30
-    max-height: 30px
+    max-width: 40px
+    max-height: 40px
     padding-right: 17px
 header
     .menu
@@ -42,11 +55,9 @@ header
         display: flex
         justify-content: space-around
         align-items: center
-        h1
-            font-size: 100px
-            margin: 0
         img
-            height: 150px
+            height: 140px
+            padding-top: 10px 
     .about
         &_me
             display: flex
@@ -56,6 +67,7 @@ header
             &_item
                 display: flex
                 align-items: center
+                padding-bottom: 20px
         .name_date
             line-height: 20px
             line-height: 40px
@@ -64,6 +76,18 @@ header
         img
             height: 400px
             padding-left: 50px
-        
-            
-
+.hard_skills
+    &_block
+        display: flex
+        justify-content: space-around
+        padding-top: 35px
+        &_sub
+            width: 500px
+            border: 1px solid #000000
+            padding: 20px 15px 20px 30px
+            .subblock
+                .img_text
+                    display: flex
+                    align-items: center
+                    padding-bottom: 20px
+                    font-size: 25px
