@@ -197,8 +197,21 @@ header .menu img:active {
   transition: 1s all;
 }
 
-.header_junior .about .social div i {
-  font-size: 30px;
+.header_junior .about .social div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.header_junior .about .social div a i {
+  font-size: 32px;
   text-shadow: none;
   color: #000000;
 }
@@ -337,8 +350,21 @@ footer .section_wrapper .social div {
   transition: 1s all;
 }
 
-footer .section_wrapper .social div i {
-  font-size: 20px;
+footer .section_wrapper .social div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+footer .section_wrapper .social div a i {
+  font-size: 22px;
   text-shadow: none;
   color: #000000;
 }
@@ -520,7 +546,7 @@ footer .section_wrapper .powered:hover a:hover {
     height: 60px;
   }
   footer .section_wrapper .social div {
-    margin: 0 5px 0 5px;
+    margin: 0 6px 0 6px;
   }
 }
 
@@ -580,12 +606,14 @@ footer .section_wrapper .powered:hover a:hover {
     margin-top: 20px;
   }
   .header_junior .about .social div {
-    margin: 0 6px 0 6px;
+    margin: 0 7px 0 7px;
     height: 35px;
     width: 35px;
   }
-  .header_junior .about .social div i {
-    font-size: 22px;
+  .header_junior .about .social div a i {
+    font-size: 27px;
+    text-shadow: none;
+    color: #000000;
   }
   .skills_block {
     padding: 10px 0 0 0;
@@ -625,10 +653,12 @@ footer .section_wrapper .powered:hover a:hover {
   footer .section_wrapper .social div {
     height: 20px;
     width: 20px;
-    margin: 0 2px 0 2px;
+    margin: 0 4px 0 4px;
   }
-  footer .section_wrapper .social div i {
-    font-size: 12px;
+  footer .section_wrapper .social div a i {
+    font-size: 15px;
+    text-shadow: none;
+    color: #000000;
   }
   footer .section_wrapper .powered {
     margin-top: 7px;
