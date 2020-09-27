@@ -6,14 +6,14 @@
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 93px;
   margin: 0;
 }
 
 h2 {
   font-size: 70px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
 }
 
 h3 {
@@ -36,9 +36,9 @@ h3 {
 .section_wrapper {
   margin-top: 70px;
   border: 1px solid #000000;
-  padding: 80px 50px 80px 50px;
-  -webkit-box-shadow: 0 0 20px black;
-          box-shadow: 0 0 20px black;
+  padding: 45px 50px 35px 50px;
+  -webkit-box-shadow: 0 0 15px black;
+          box-shadow: 0 0 15px black;
 }
 
 .icon_before {
@@ -49,7 +49,7 @@ h3 {
 
 header .menu {
   height: 90px;
-  margin-top: 40px;
+  margin-top: 1px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,8 +62,8 @@ header .menu {
   list-style-type: none;
   padding: 20px 100px 20px 100px;
   border: 1px solid #000000;
-  -webkit-box-shadow: 0 0 20px black;
-          box-shadow: 0 0 20px black;
+  -webkit-box-shadow: 0 0 15px black;
+          box-shadow: 0 0 15px black;
 }
 
 header .menu img {
@@ -121,8 +121,9 @@ header .menu img:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -130,7 +131,7 @@ header .menu img:active {
 
 .header_junior_block img {
   height: 140px;
-  padding-top: 10px;
+  padding: 10px 0 0 15px;
 }
 
 .header_junior .about_me {
@@ -156,15 +157,12 @@ header .menu img:active {
 }
 
 .header_junior .about .name_date {
-  line-height: 20px;
   line-height: 40px;
   font-size: 25px;
-  font-weight: 600;
 }
 
 .header_junior .about img {
   height: 400px;
-  padding-left: 50px;
 }
 
 .header_junior .about .social {
@@ -174,7 +172,10 @@ header .menu img:active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 25px;
 }
 
 .header_junior .about .social div {
@@ -226,15 +227,17 @@ header .menu img:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding-top: 35px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 35px;
 }
 
 .skills_block_sub {
   width: 500px;
   border: 1px solid #000000;
   padding: 30px 15px 20px 30px;
+  margin: 0 30px 0 30px;
 }
 
 .skills_block_sub .subblock .img_text {
@@ -249,7 +252,7 @@ header .menu img:active {
 }
 
 .qa_skills ul.sublist li {
-  font-size: 20px;
+  font-size: 23px;
   list-style: square;
 }
 
@@ -286,7 +289,7 @@ header .menu img:active {
 }
 
 footer {
-  margin-bottom: 70px;
+  margin-bottom: 1px;
 }
 
 footer .section_wrapper {
@@ -296,9 +299,11 @@ footer .section_wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 80px 0 80px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 60px 50px 60px 50px;
+  margin-top: 50px;
 }
 
 footer .section_wrapper .social {
@@ -308,6 +313,9 @@ footer .section_wrapper .social {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer .section_wrapper .social div {
@@ -324,7 +332,7 @@ footer .section_wrapper .social div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 12px 0 12px;
+  margin: 0 7px 0 7px;
   -webkit-transition: 1s all;
   transition: 1s all;
 }
@@ -338,8 +346,8 @@ footer .section_wrapper .social div i {
 footer .section_wrapper .social div:hover {
   background: #000000;
   cursor: pointer;
-  -webkit-transform: rotate(360deg) scale(1.7);
-          transform: rotate(360deg) scale(1.7);
+  -webkit-transform: rotate(-360deg) scale(1.7);
+          transform: rotate(-360deg) scale(1.7);
 }
 
 footer .section_wrapper .social div:hover i:hover {
@@ -353,5 +361,282 @@ footer .section_wrapper .social div:hover i:active {
   transition: 0.3s all;
   -webkit-transform: scale(0.65);
           transform: scale(0.65);
+}
+
+footer .section_wrapper .powered {
+  -webkit-transition: 0.1s all;
+  transition: 0.1s all;
+}
+
+footer .section_wrapper .powered a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer .section_wrapper .powered:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+footer .section_wrapper .powered:hover a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 73px;
+  }
+  header .menu {
+    padding: 20px 50px 20px 50px;
+  }
+  .header_junior_block img {
+    height: 130px;
+    padding: 6px 0 0 15px;
+  }
+  .skills_block_sub {
+    margin: 0 15px 0 15px;
+  }
+  .skills_block_sub .subblock .img_text {
+    font-size: 23px;
+  }
+  .qa_skills ul li {
+    font-size: 22px;
+  }
+  .qa_skills ul.sublist li {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 991px) {
+  .section_wrapper {
+    margin-top: 40px;
+    -webkit-box-shadow: 0 0 10px black;
+            box-shadow: 0 0 10px black;
+    padding: 35px 50px 20px 50px;
+  }
+  header .menu {
+    padding: 20px 0 20px 0;
+    -webkit-box-shadow: 0 0 15px black;
+            box-shadow: 0 0 15px black;
+  }
+  h1 {
+    font-size: 54px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  .header_junior_block img {
+    height: 100px;
+    padding-top: 2px;
+  }
+  .qa_skills ul li {
+    font-size: 18px;
+  }
+  .qa_skills ul.sublist li {
+    font-size: 17px;
+  }
+  .header_junior .about .name_date {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .header_junior .about img {
+    padding-left: 8px;
+  }
+  .skills_block_sub {
+    padding: 30px 10px 20px 15px;
+    margin: 0 7px 0 7px;
+  }
+  .skills_block_sub .subblock .img_text {
+    font-size: 17px;
+  }
+  .skills_block_sub .subblock .img_text img {
+    max-width: 35px;
+    padding-right: 10px;
+  }
+  .hoobies .skills_block_sub .subblock ul img {
+    height: 75px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section_wrapper {
+    margin-top: 30px;
+    padding: 30px 10px 20px 10px;
+    -webkit-box-shadow: 0 0 8px black;
+            box-shadow: 0 0 8px black;
+  }
+  header .menu_item_link {
+    width: 112px;
+    font-size: 20px;
+  }
+  header .menu {
+    -webkit-box-shadow: 0 0 8px black;
+            box-shadow: 0 0 8px black;
+  }
+  header .menu img {
+    width: 80px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 45px;
+    padding-bottom: 30px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .header_junior_block img {
+    height: 75px;
+  }
+  .header_junior .about .name_date {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .header_junior .about img {
+    height: 300px;
+  }
+  .skills_block_sub {
+    padding: 30px 15px 20px 15px;
+    margin: 0 5px 0 5px;
+  }
+  .skills_block_sub .subblock .img_text {
+    font-size: 14px;
+  }
+  .skills_block_sub .subblock .img_text img {
+    width: 30px;
+    padding-right: 11px;
+  }
+  .qa_skills ul li {
+    font-size: 14px;
+  }
+  .qa_skills ul.sublist li {
+    font-size: 13px;
+  }
+  .hoobies .skills_block_sub .subblock ul img {
+    height: 60px;
+  }
+  footer .section_wrapper .social div {
+    margin: 0 5px 0 5px;
+  }
+}
+
+@media (max-width: 575px) {
+  * {
+    text-shadow: 2px 2px 3px grey;
+  }
+  .wrapper {
+    margin: 0 auto;
+  }
+  header {
+    display: none;
+  }
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  h3 {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .section_wrapper {
+    margin-top: 5px;
+    -webkit-box-shadow: 0 0 2px black;
+            box-shadow: 0 0 2px black;
+    padding: 15px 10px 15px 10px;
+  }
+  .header_junior_block img {
+    display: none;
+  }
+  .header_junior .about_me {
+    display: block;
+    margin: 0 auto;
+  }
+  .header_junior .about_me img {
+    height: 150px;
+    margin: 0 auto;
+  }
+  .header_junior .about_me .name_date {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .header_junior .about_me .about_me_item, .header_junior .about_me img {
+    display: block;
+    padding: 7px 0 7px 0;
+    text-align: center;
+  }
+  .header_junior .section_wrapper {
+    margin-top: 0;
+  }
+  .header_junior .about .social {
+    margin-top: 20px;
+  }
+  .header_junior .about .social div {
+    margin: 0 6px 0 6px;
+    height: 35px;
+    width: 35px;
+  }
+  .header_junior .about .social div i {
+    font-size: 22px;
+  }
+  .skills_block {
+    padding: 10px 0 0 0;
+  }
+  .skills_block_sub {
+    padding: 10px 5px 10px 8px;
+    margin: 0 2px 0 2px;
+  }
+  .skills_block_sub .subblock .img_text {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .skills_block_sub .subblock .img_text img {
+    width: 23px;
+    padding-right: 5px;
+  }
+  .qa_skills ul.sublist li {
+    font-size: 8px;
+  }
+  .qa_skills ul {
+    padding-left: 13px;
+  }
+  .qa_skills ul li {
+    font-size: 9px;
+  }
+  .hoobies .skills_block_sub .subblock ul img {
+    height: 30px;
+  }
+  footer {
+    margin-bottom: 1px;
+  }
+  footer .section_wrapper {
+    display: block;
+    padding: 15px 0 15px 0;
+    margin-top: 5px;
+  }
+  footer .section_wrapper .social div {
+    height: 20px;
+    width: 20px;
+    margin: 0 2px 0 2px;
+  }
+  footer .section_wrapper .social div i {
+    font-size: 12px;
+  }
+  footer .section_wrapper .powered {
+    margin-top: 7px;
+    text-align: center;
+    line-height: 5px;
+  }
+  footer .section_wrapper .powered a {
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=style.min.css.map */
