@@ -6,7 +6,7 @@
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 95px;
   margin: 0;
 }
 
@@ -36,7 +36,7 @@ h3 {
 .section_wrapper {
   margin-top: 70px;
   border: 1px solid #000000;
-  padding: 80px 50px 80px 50px;
+  padding: 60px 50px 80px 50px;
   -webkit-box-shadow: 0 0 20px black;
           box-shadow: 0 0 20px black;
 }
@@ -156,7 +156,6 @@ header .menu img:active {
 }
 
 .header_junior .about .name_date {
-  line-height: 20px;
   line-height: 40px;
   font-size: 25px;
   font-weight: 600;
@@ -338,8 +337,8 @@ footer .section_wrapper .social div i {
 footer .section_wrapper .social div:hover {
   background: #000000;
   cursor: pointer;
-  -webkit-transform: rotate(360deg) scale(1.7);
-          transform: rotate(360deg) scale(1.7);
+  -webkit-transform: rotate(-360deg) scale(1.7);
+          transform: rotate(-360deg) scale(1.7);
 }
 
 footer .section_wrapper .social div:hover i:hover {
@@ -353,5 +352,70 @@ footer .section_wrapper .social div:hover i:active {
   transition: 0.3s all;
   -webkit-transform: scale(0.65);
           transform: scale(0.65);
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 75px;
+  }
+  h2 {
+    font-size: 65px;
+  }
+  .header_junior_block img {
+    height: 120px;
+    padding-top: 6px;
+  }
+}
+
+@media (max-width: 991px) {
+  header .menu {
+    padding: 20px 0 20px 0;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  .header_junior_block img {
+    height: 100px;
+    padding-top: 2px;
+  }
+  .qa_skills ul li {
+    font-size: 24px;
+  }
+  .header_junior .about .name_date {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .header_junior .about img {
+    padding-left: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section_wrapper {
+    margin-top: 30px;
+    padding: 40px 50px 80px 40px;
+  }
+  header .menu_item_link {
+    width: 112px;
+    font-size: 20px;
+  }
+  header .menu img {
+    width: 80px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  .header_junior_block img {
+    height: 75px;
+  }
 }
 /*# sourceMappingURL=style.min.css.map */
